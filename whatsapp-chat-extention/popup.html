@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Data to Excel</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    input, button { width: 100%; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Upload WhatsApp Chat</h3>
+
+  <label>Start Time:<br><input type="datetime-local" id="startTime"></label><br>
+  <label>End Time:<br><input type="datetime-local" id="endTime"></label><br>
+
+  <input type="file" id="fileInput" accept=".txt"><br>
+  <button id="exportBtn" disabled>Export to Excel</button>
+
+  <script src="xlsx.full.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

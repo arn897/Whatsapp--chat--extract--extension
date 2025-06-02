@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Data to Excel",
+  "version": "1.0",
+  "description": "Upload a WhatsApp chat .txt file and export summed data to Excel.",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "WhatsApp to Excel"
+  }
+}
